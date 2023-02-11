@@ -28,7 +28,7 @@ var comida = ['arroz','feijão','ovo'];
 comida[1];
 
 // Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
-soma === myvar
+soma === myvar;
 
 // Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
 myvar <= soma
@@ -39,5 +39,5 @@ function divisao(numOne, numTwo){
 }
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
-divisao()
+divisao(10, 2);
 ```
