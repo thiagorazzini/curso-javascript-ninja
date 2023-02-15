@@ -102,7 +102,7 @@ pessoa.nomeCompleto()//'Olá! Meu nome é Thiago Razzini'
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.mostrarIdade();//'Olá, eu tenho 26 anos!'
+pessoa.mostrarIdade();//'Olá, eu tenho 25 anos!'
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
