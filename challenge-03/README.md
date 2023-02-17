@@ -182,7 +182,7 @@ correta, de acordo com os dados inseridos no objeto.
 pessoa.apresentacao = function(){
    var sexo = 'o';
    var idadeAnos = 'anos';
-   var metrosCaminhadas = 'metro';
+   var metrosCaminhados = 'metro';
    if(pessoa.sexo === 'Feminino'){
       sexo = 'a';
    }
@@ -194,7 +194,7 @@ pessoa.apresentacao = function(){
    {
     metrosCaminhados = 'metro';
    }
-   return "Olá, eu sou " + sexo + ' ' + pessoa.nome + ' ' + pessoa.sobrenome + " , tenho " + pessoa.idade + ' ' + idadeAnos + " , " + pessoa.altura + " , meu peso é "+ pessoa.peso + "e, só hoje, eu já caminhei "+ pessoa.caminhouQuantosMetros +" "+ metrosCaminhados  " !"
+   return "Olá, eu sou " + sexo + ' ' + pessoa.nome + ' ' + pessoa.sobrenome + " , tenho " + pessoa.idade + ' ' + idadeAnos + " , " + pessoa.altura + " , meu peso é "+ pessoa.peso + " e, só hoje, eu já caminhei "+ pessoa.caminhouQuantosMetros +" "+ metrosCaminhados  + " !"
 }
 // Agora, apresente-se ;)
 pessoa.apresentacao()//'Olá, eu sou o Thiago Razzini tenho 25 anos, 1.82, meu peso é 86 e, só hoje, eu ja caminhei 0 metros'
